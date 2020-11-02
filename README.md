@@ -97,7 +97,9 @@ def etiquetas(x,y,z,n):
 Los gráficos permitieron determinar que la hipótesis era falsa ya que uno de los argumentos no se cumplia.
 
 Imagen del Código A
+
 <img src=imagen/Codigo_A.jpg width="500">
 
 Imagen del Código B
+
 <img src=imagen/Codigo_B.jpg width="600">
