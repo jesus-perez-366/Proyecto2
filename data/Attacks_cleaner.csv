@@ -18,7 +18,7 @@
 16,ND-4208,David Hunt,1999,USA,Florida,M
 17,ND-4207,Jesse Spencer,1999,USA,Hawaii,M
 18,ND-4206,Joel A. Borges,1999,USA,Florida,M
-19,ND-4205,Boat “Coca Cola”,1999,ITALY,Adriatic Sea,
+19,ND-4205,Sin Identificar,1999,ITALY,Adriatic Sea,
 20,ND-4204,Tod Wallersheim,1999,USA,California,M
 21,ND-4203,Janet Ferguson,1999,USA,Florida,F
 22,ND-4202,Taylor Warnock,1999,USA,South Carolina,F
@@ -55,7 +55,7 @@
 53,ND-4171,Mr. Spain,1999,NEW ZEALAND,,M
 54,ND-4170,Jonathan Allen,1999,USA,Hawaii,M
 55,ND-4169,Robyne Knutson,1999,USA,Hawaii,F
-56,ND-4168, ,1999,USA,North Carolina,
+56,ND-4168,Sin Identificar,1999,USA,North Carolina,
 57,ND-4167,Sin Identificar,1999,AUSTRALIA,New South Wales,M
 58,ND-4166,Kenny Burns,1999,USA,Florida,M
 59,ND-4165,Rajkumar Mansaram,1999,MAURITIUS,,M
@@ -186,7 +186,7 @@
 184,ND-4040,Derek Burrows,1997,AUSTRALIA,Queensland,M
 185,ND-4039,Werner Schonhofer,1997,AUSTRALIA,Western Australia,M
 186,ND-4038,David Lonne,1997,RE-UNION,,M
-187,ND-4037," Jasmine Wigley, Greg Wilkie, Phil Rourke & Fleur Anderson",1997,AUSTRALIA,Victoria,
+187,ND-4037, Jasmine Wigley,1997,AUSTRALIA,Victoria,
 188,ND-4036,Blair Hall,1996,AUSTRALIA,Queensland,M
 189,ND-4035,Steven Cross,1996,SOUTH AFRICA,Eastern Cape Province,M
 190,ND-4034,Charles Wadra,1996,NEW CALEDONIA,,M
@@ -212,7 +212,7 @@
 210,ND-4014,Jason King,1996,USA,Florida,M
 211,ND-4013,Sin Identificar,1996,USA,Florida,F
 212,ND-4012,Mr. Moriyoshi Takehara,1996,OKINAWA,Miyako,M
-213,ND-4011,Martin Christopher Richardson,1996,EGYPT / ISRAEL,South Sinai,M
+213,ND-4011,Martin Christopher Richardson,1996,EGYPT / ISRAEL,"South Sinai, Gulf of Aqaba",M
 214,ND-4010,James Orlowski,1996,USA,Massachusetts,M
 215,ND-4009,Sin Identificar,1996,USA,Florida,M
 216,ND-4008,Trimurti Day,1996,USA,Hawaii,
@@ -238,20 +238,20 @@
 236,ND-3988,Sin Identificar,1996,PAPUA NEW GUINEA,Madang Province,M
 237,ND-3987,College student,1996,PAPUA NEW GUINEA,Madang Province,
 238,ND-3986,Sin Identificar,1996,PAPUA NEW GUINEA,Madang Province,
-239,ND-3985,No survivors. ,1996,DOMINICAN REPUBLIC,,
+239,ND-3985,No survivors. ,1996,DOMINICAN REPUBLIC,12 miles off the north coast,
 240,ND-3984,Sin Identificar,1996,AUSTRALIA,New South Wales,M
 241,ND-3983,Christopher Riley,1996,USA,Florida,M
 242,ND-3982,Jasmine Cox,1996,AUSTRALIA,Queensland,F
 243,ND-3981,Robert Rogowicz,1996,USA,Hawaii,M
 244,ND-3980,Marris,1996,AUSTRALIA,Western Australia,
-245,ND-3979," William Catton, Anthony Green, Tony & Kylie Barnes",1996,AUSTRALIA,New South Wales,
+245,ND-3979, William Catton,1996,AUSTRALIA,New South Wales,
 246,ND-3978,Grégory Bénèche,1996,RE-UNION,Saint-Paul ,M
 247,ND-3977,Sin Identificar,1996,FIJI,Taveuni,M
 248,ND-3976,Sin Identificar,1996,USA,North Carolina,M
 249,ND-3975,Carlton Taniyama,1995,USA,Hawaii,M
-250,ND-3974,Kina Scollay,1995,NEW ZEALAND,Chatham Islands,M
+250,ND-3974,Kina Scollay,1995,NEW ZEALAND,"Chatham Islands, east of New  Zealand",M
 251,ND-3973,Wendall Olanolan,1995,USA,Hawaii,M
-252,ND-3972,"Zacharay Mayo, a U.S. Marine",1995,NORTHERN ARABIAN SEA,,M
+252,ND-3972,Zacharay Mayo,1995,NORTHERN ARABIAN SEA,,M
 253,ND-3971,Roberto Giordan,1995,AUSTRALIA,Queensland,M
 254,ND-3970,Matthew Beyrer,1995,USA,Florida,M
 255,ND-3969,John Foley,1995,USA,Florida,M
@@ -404,7 +404,7 @@
 402,ND-3821,Sin Identificar,1993,AUSTRALIA,Western Australia,
 403,ND-3820,David R. Miles,1993,USA,California,M
 404,ND-3819,Thierry Kouathe,1993,NEW CALEDONIA,South Province,M
-405,ND-3818, ,1993,EL SALVADOR,La Libertad,
+405,ND-3818,Sin Identificar,1993,EL SALVADOR,La Libertad,
 406,ND-3817,Ralph LeRoux,1993,SOUTH AFRICA,Eastern Cape Province,M
 407,ND-3816,Melissa Rodrigues,1993,USA,Florida,F
 408,ND-3815,Robson Antonio R. Santos,1993,BRAZIL,Pernambuco,M
@@ -416,7 +416,7 @@
 414,ND-3809,Teresa Cartwright,1993,AUSTRALIA,Tasmania,F
 415,ND-3808,Yan Sai-wah,1993,HONG KONG,New Territories,M
 416,ND-3807,Suzanne Pferrer,1993,USA,North Carolina,F
-417,ND-3806,Sin Identificar,1993,HONG KONG,On the Kowloon penisula,F
+417,ND-3806,Sin Identificar,1993,HONG KONG,"On the Kowloon penisula, south of Sai Kung",F
 418,ND-3805,French female,1993,SOMALIA,Banaadir Region,F
 419,ND-3804,Tony Szolomiak,1993,AUSTRALIA,Tasmania,M
 420,ND-3803,José Ricardo C. Gouveia,1993,BRAZIL,Pernambuco,M
@@ -434,7 +434,7 @@
 432,ND-3791,William Weaver,1993,USA,Oregon,M
 433,ND-3790,John Doyle,1993,ANGOLA,West Africa,M
 434,ND-3789,Sin Identificar,1993,SOMALIA,Banaadir Region,
-435,ND-3788,A diver from Spain,1993,TONGA,Vava’u,
+435,ND-3788,Sin Identificar,1993,TONGA,Vava’u,
 436,ND-3787,Sin Identificar,1993,USA,Florida,
 437,ND-3786,Pahu Tanaka,1992,USA,Hawaii,M
 438,ND-3785,Gary M. Chun,1992,USA,Hawaii,M
@@ -473,7 +473,7 @@
 471,ND-3752,Sin Identificar,1992,RE-UNION,Saint-Paul,
 472,ND-3751,Mike Weathers,1992,USA,North Carolina ,M
 473,ND-3750,Emmanuel Nativel,1992,RE-UNION,Saint-Joseph,M
-474,ND-3749,Nick Caloyianis,1992,MEXICO, Caribbean Sea,M
+474,ND-3749,Nick Caloyianis,1992,MEXICO,Mexico / Caribbean Sea,M
 475,ND-3748,Mike Fraser,1992,NEW ZEALAND,Antarctic Ocean,M
 476,ND-3747,Gordon Harmer,1992,SOUTH AFRICA,Eastern Cape Province,M
 477,ND-3746,Jude Chamberlin,1992,USA,Hawaii,F
@@ -502,7 +502,7 @@
 500,ND-3723,John Ferrerira,1991,USA,California,M
 501,ND-3722,Omar Karim Huneidi,1991,BAHAMAS,,M
 502,ND-3721,Jonathon Lee,1991,AUSTRALIA,South Australia,M
-503,ND-3720,A Japanese fisherman from Miyagi,1991,AUSTRALIA,Queensland,M
+503,ND-3720,Sin Identificar,1991,AUSTRALIA,Queensland,M
 504,ND-3719,Brad Hibshman,1991,USA,South Carolina,M
 505,ND-3718,Jacquelyn Johnson,1991,USA,Florida,F
 506,ND-3717,Captain John Donnell,1991,USA,Florida,M
@@ -552,7 +552,7 @@
 550,ND-3673,Scott Holloway,1990,USA,Florida,M
 551,ND-3672,Monique Price,1990,SOUTH AFRICA,Western Cape Province,F
 552,ND-3671,Bruce Cease,1990,BAHAMAS,,M
-553,ND-3670," Anton & Michelle Gets, Ray Whitaker, John & Lyn Palmer",1990,SOUTH AFRICA,KwaZulu-Natal,
+553,ND-3670, Anton & Michelle Gets,1990,SOUTH AFRICA,KwaZulu-Natal,
 554,ND-3669, Sydney woman,1990,AUSTRALIA,Queensland,F
 555,ND-3668,German male,1990,AUSTRALIA,Queensland,M
 556,ND-3667,Richard Forrester,1990,SOUTH AFRICA,Eastern Cape Province,M
