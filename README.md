@@ -55,6 +55,7 @@ Nota: este mismo proceso se aplicó para la columna Area
 Al finalizar la limpieza se obtuvo una data de la siguiente manera:
 
 *Data Arreglada*
+
 <img src=imagen/data_arreglado.jpg width="650">
 
     
@@ -99,4 +100,4 @@ Imagen del Código A
 <img src=imagen/Codigo_A.jpg width="500">
 
 Imagen del Código B
-<img src=imagen/Codigo_B.jpg width="500">
+<img src=imagen/Codigo_B.jpg width="600">
