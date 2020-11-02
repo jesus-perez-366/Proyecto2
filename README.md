@@ -1,45 +1,102 @@
-![portada](https://github.com/ironhack-datalabs/datamad1020-rev/blob/master/projects/W2-Pandas-project/portada.jpg)
+# <img src=imagen/Tiburon2.jpg width="1000"> 
+# Limpieza de un Archivo CSV    
 
-# W2 Project - Data cleaning & wrangling
 
-The goal of this project is to combine everything you have learned about data wrangling, cleaning, and manipulation with Pandas so you can see how it all works together. For this project, you will start with this messy data set Shark Attack. You will need to import it, use your data wrangling skills to clean it up, prepare it to be analyzed, and then export it as a clean CSV data file. Some graphs to better understand the data will surely be useful!!
+## Explicación
+   Este proyecto esta enfocado en realizar la limpieza de un archivo .csv
 
-## TODO's
+## Pasos a realizar
+1. En primera instancia se debe visualizar el archivo .csv y realizar una exploración de datos de forma global.
+2. Los archivos .cvs pueden contener gran extensión de datos por ellos es importante en la manera de lo posible delimitar la busqueda, para asi extraer la información que realmente se requiere y a partir de esa información trabajar sobre ella.
+3. Platear los métodos a aplicar para estructurar la información.
+4. Implementar y ejectutar las acciones para obtener una Data limpia y organizada.
+5. Realizar los análisis a través de gráficos para representar la información lo más breve, estructurada y exacta para su entendimiento.
 
-1. Decide a hypothesis with which you will clean the data
-2. Explore the data and write down what you have found
-   - you can use: `df.describe()`, `df["column"]`, etc.
-3. Draw at least two graphs that are insightful. 
-4. Use at least 5 data cleaning techniques inside a file named `clean.ipynb`
-   - null values, columns drop, duplicated data, string manipulation, apply fn, categorize, regex, etc.
-5. Show data that validates the conclusions based on your hypotesis in a file named `analysis.ipynb`
-6. Build a compelling story-telling around your findings. Think of your stakeholders and convince them with your conclusions! (Some slides with few text and pretty plots are normally useful)
+## Código para Limpieza
+En función de los pasos a seguir para limpiar la data del archivo attacks.csv se implementarón filtros, intercambio de columnas, busqueda de patrones y remplazo de string determinados.
 
-## Suggested Ways to Get Started
+*Vista preliminar de la data Original*
 
-- Examine the data and try to understand what the fields mean before diving into data cleaning and manipulation methods.
-- Break the project down into different steps - use the topics covered in the lessons to form a check list, add anything else you can think of that may be wrong with your data set, and then work through the check list.
-- Use the tools in your tool kit - your knowledge of Python, data structures, Pandas, and data wrangling.
-  Work through the lessons in class & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... procrastinating.
-- Commit early, commit often, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-- Consult documentation and resources provided to better understand the tools you are using and how to accomplish what you want.
+<img src=imagen/data_original.jpg width="500">
 
-## How to deliver the project
 
-1. Create a new repo with the name `data-cleaning-pandas` in your github account.
-   - Create a `README.md` file on repo root with project documentation
-   - At least 1 jupyter notebook is required
-   - **DO NOT UPLOAD SHARKs ATTACK DATASET TO GITHUB**
-2. Do a `PR` with the link of your repo copy pasted inside `m1/pandas-project/PROJECT-REPO.md` on our labs repo.
 
-## Links & Resources
+A manera de resumen, para de limitar la información se planteó una hipótesis y a partir de ella se extrajo la infomración necesaria y se organizó la data para poder analizarla. Los códigos aplicados relevantes para este trabajo fueron.
 
-- <https://www.kaggle.com/teajay/global-shark-attacks>
-- <https://numpy.org/doc/1.18/>
-- <https://pandas.pydata.org/>
-- https://docs.python.org/3/library/functions.html
-- https://plotly.com/python/
-- https://matplotlib.org/
-- https://seaborn.pydata.org/
-- https://pandas.pydata.org/docs/
-- https://towardsdatascience.com/beware-of-storytelling-with-data-1710fea554b0?gi=537e0c10d89e
+A) Filtrar la información entre los años 1990 y 1999.
+```
+
+df_data_Content_Year=df_data_Content[(df_data_Content.Year >= 1990) & (df_data_Content.Year <= 1999)]
+
+```
+
+B) Verificación se si alguna información estaba duplicada.
+
+```
+df_data_Content_Year["Original Order"].duplicated().sum()
+
+```
+`Lo que se hizo fue verificar si los valores de la columna Original Orden se repetia en la misma columna, si la suma da 0 significa que no coincidencia, en caso contrario si habria, y por lo tanto habria que verificar si la demas informacion coincidia.`
+
+C) Busqueda de patrones
+
+```
+patron=[r'\(.*\)', r'^\w.*\.$', r'\d.*\.?', r'^\w.*\:', r'^\w.\w$', r'^[a-z].*[a-z]$', r'[A-Z]\W$', r'^[A-Z]\s.*\w$', r'^\w.*\”$']
+for i in patron:
+        df_data_clean.Name=df_data_clean.Name.replace(regex=i, value= '')
+df_data_clean.Name=df_data_clean.Name.replace(["female", "male", '', ' '], "Sin Identificar")
+
+```
+        
+`Se crearon diversos patrones que permitieron limpiar la columna Name y asi obtener solo nombres o la expresion Sin Identificar`
+
+Nota: este mismo proceso se aplicó para la columna Area
+
+Al finalizar la limpieza se obtuvo una data de la siguiente manera:
+
+*Data Arreglada*
+<img src=imagen/data_arreglado.jpg width="500">
+
+    
+
+## Códigos para Análisis
+
+Para verificar la hipótesis planteada se realizarón varios gráficos de barra y para ello se usaron solo 2 códigos.
+
+Código A
+```
+df_Country_Area_Attacke_more_10.plot(kind='bar', color=['red','blue','orange','black','silver'])
+```
+
+Código B
+```
+sns.countplot(df_USA.Area, hue=df_USA.Sex)
+```
+
+Para darle un título y etiquetas a los ejes de cada gráfico se implementó el siguiente codigo, el cual fue definido como una función para asi evitar repetir el código en cada gráfico.
+
+```
+def etiquetas(x,y,z,n):
+    '''
+    Pertime darle un formato a la graficas (Titulo y tamaño, etiqueta a los ejes, tamño del grafico)
+    args:
+    x (String) = Es el titulo del grafico
+    y (String) = Es la etiqueta del eje x
+    z (String) = Es la etiqueta del eje y
+    n (int) = Tamaño de la letra del titulo
+    Return:
+    none
+    '''
+    plt.suptitle(x, size=n)
+    plt.xlabel(y)
+    plt.ylabel(z)
+    plt.figure(figsize=(12,5))
+
+```
+Los gráficos permitieron determinar que la hipótesis era falsa ya que uno de los argumentos no se cumplia.
+
+Imagen del Código A
+<img src=imagen/Codigo_A.jpg width="350">
+
+Imagen del Código B
+<img src=imagen/Codigo_b.jpg width="350">
