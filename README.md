@@ -17,7 +17,7 @@ En función de los pasos a seguir para limpiar la data del archivo attacks.csv s
 
 *Vista preliminar de la data Original*
 
-<img src=imagen/data_original.jpg width="500">
+<img src=imagen/data_original.jpg width="650">
 
 
 
@@ -55,7 +55,7 @@ Nota: este mismo proceso se aplicó para la columna Area
 Al finalizar la limpieza se obtuvo una data de la siguiente manera:
 
 *Data Arreglada*
-<img src=imagen/data_arreglado.jpg width="500">
+<img src=imagen/data_arreglado.jpg width="650">
 
     
 
@@ -96,7 +96,7 @@ def etiquetas(x,y,z,n):
 Los gráficos permitieron determinar que la hipótesis era falsa ya que uno de los argumentos no se cumplia.
 
 Imagen del Código A
-<img src=imagen/Codigo_A.jpg width="350">
+<img src=imagen/Codigo_A.jpg width="500">
 
 Imagen del Código B
-<img src=imagen/Codigo_b.jpg width="350">
+<img src=imagen/Codigo_B.jpg width="500">
